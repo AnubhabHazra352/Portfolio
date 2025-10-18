@@ -796,6 +796,11 @@ span {
     flex-direction: column; /* stack items vertically */
     justify-content: center;
     align-items: center;
+    height: 100%;
+  }
+
+  .home-image{
+    margin-top: 80px;
   }
 
   .home img {
@@ -809,6 +814,7 @@ span {
     order: 2; /* content goes below image */
     width: 100%;
     text-align: center;
+    height: 400px;
   }
 
   .home-content h1 {
@@ -833,6 +839,7 @@ span {
   .home-sci {
     width: 160px;
     margin: 3rem auto 0 auto; /* centers icons */
+    bottom: 2rem;
   }
 
   .home-sci a {
