@@ -817,23 +817,22 @@ span {
     margin-top: 2.5rem;
   }
 
-  .text-animation{
+  .text-animation {
     font-size: 3rem;
     font-weight: 400;
-    margin-left: 6rem;
+    margin: 0 auto; /* replaces margin-left */
   }
 
   .btn-box a {
     width: 10rem;
     height: 5rem;
     font-size: 3rem;
-    margin-left: 4.3rem;
-   
+    margin: 0 auto; /* centers button */
   }
 
   .home-sci {
     width: 160px;
-    margin: 3rem 4rem 0 4rem;
+    margin: 3rem auto 0 auto; /* centers icons */
   }
 
   .home-sci a {
@@ -842,6 +841,7 @@ span {
     margin-top: 3rem;
   }
 }
+
 
 
 /* ANIMATED RELOAD AND SCROLL*/
